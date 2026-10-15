@@ -5,8 +5,8 @@ Exemplo educativo de aprendizado linear em Ruby e Python, sem bibliotecas extern
 ## Executar
 
 ```sh
-ruby exemplo.rb
-python3 exemplo.py
+ruby deepleaning_basico_exemplo_01/exemplo.rb
+python3 deepleaning_basico_exemplo_01/exemplo.py
 ```
 
 ## Como funciona
