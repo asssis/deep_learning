@@ -1,0 +1,235 @@
+﻿# Uma pergunta: resposta por linha.
+# Edite e execute: ruby exemplo.rb --treinar
+# Apenas o primeiro : separa a pergunta da resposta.
+
+oi: Olá! Você pode perguntar sobre quadrado, triângulo, bola ou sobre como a rede aprende.
+olá: oi
+bom dia: Olá! Você pode perguntar sobre quadrado, triângulo, bola ou sobre como a rede aprende.
+boa tarde: Olá! Você pode perguntar sobre quadrado, triângulo, bola ou sobre como a rede aprende.
+boa noite: Olá! Você pode perguntar sobre quadrado, triângulo, bola ou sobre como a rede aprende.
+
+o que é um quadrado: Um quadrado é uma figura plana com quatro lados iguais e quatro ângulos retos.
+explique quadrado: Um quadrado é uma figura plana com quatro lados iguais e quatro ângulos retos.
+quantos lados tem o quadrado: Um quadrado é uma figura plana com quatro lados iguais e quatro ângulos retos.
+como é a forma quadrada: Um quadrado é uma figura plana com quatro lados iguais e quatro ângulos retos.
+
+o que é um triângulo: Um triângulo é uma figura plana com três lados e três ângulos.
+explique triângulo: Um triângulo é uma figura plana com três lados e três ângulos.
+quantos lados tem o triângulo: Um triângulo é uma figura plana com três lados e três ângulos.
+como é a forma triangular: Um triângulo é uma figura plana com três lados e três ângulos.
+
+o que é uma bola: Uma bola tem uma forma aproximadamente esférica. No desenho plano, podemos representá-la por um círculo.
+explique bola: Uma bola tem uma forma aproximadamente esférica. No desenho plano, podemos representá-la por um círculo.
+qual é a forma da bola: Uma bola tem uma forma aproximadamente esférica. No desenho plano, podemos representá-la por um círculo.
+a bola é redonda: Uma bola tem uma forma aproximadamente esférica. No desenho plano, podemos representá-la por um círculo.
+
+como a rede aprende: A rede soma entradas multiplicadas por pesos e adiciona um viés. Compara o resultado com o alvo e usa o erro para ajustar os pesos e o viés.
+como funciona o treinamento: A rede soma entradas multiplicadas por pesos e adiciona um viés. Compara o resultado com o alvo e usa o erro para ajustar os pesos e o viés.
+como os pesos são ajustados: A rede soma entradas multiplicadas por pesos e adiciona um viés. Compara o resultado com o alvo e usa o erro para ajustar os pesos e o viés.
+o que é o erro da rede: A rede soma entradas multiplicadas por pesos e adiciona um viés. Compara o resultado com o alvo e usa o erro para ajustar os pesos e o viés.
+
+tchau: Até logo! Bons estudos.
+até logo: Até logo! Bons estudos.
+até mais: Até logo! Bons estudos.
+adeus: Até logo! Bons estudos.
+
+como você se chama: Sou um exemplo didático de classificador de perguntas e respostas em Ruby.
+qual é seu nome: Sou um exemplo didático de classificador de perguntas e respostas em Ruby.
+quem é você: Sou um exemplo didático de classificador de perguntas e respostas em Ruby.
+apresente você: Sou um exemplo didático de classificador de perguntas e respostas em Ruby.
+
+o que você faz: Eu classifico sua pergunta e seleciono uma resposta cadastrada no arquivo de texto.
+como posso usar este programa: Eu classifico sua pergunta e seleciono uma resposta cadastrada no arquivo de texto.
+para que serve este assistente: Eu classifico sua pergunta e seleciono uma resposta cadastrada no arquivo de texto.
+qual é sua função: Eu classifico sua pergunta e seleciono uma resposta cadastrada no arquivo de texto.
+
+obrigado: De nada! Bons estudos.
+obrigada: De nada! Bons estudos.
+muito obrigado: De nada! Bons estudos.
+agradeço pela ajuda: De nada! Bons estudos.
+
+preciso de ajuda: Você pode perguntar sobre formas geométricas, palavras, arquivos JSON, Ruby e o funcionamento da rede.
+me ajude: Você pode perguntar sobre formas geométricas, palavras, arquivos JSON, Ruby e o funcionamento da rede.
+quais assuntos posso perguntar: Você pode perguntar sobre formas geométricas, palavras, arquivos JSON, Ruby e o funcionamento da rede.
+mostre os assuntos disponíveis: Você pode perguntar sobre formas geométricas, palavras, arquivos JSON, Ruby e o funcionamento da rede.
+
+o que é um retângulo: Um retângulo é uma figura plana com quatro lados e quatro ângulos retos. Os lados opostos têm a mesma medida.
+explique retângulo: Um retângulo é uma figura plana com quatro lados e quatro ângulos retos. Os lados opostos têm a mesma medida.
+quantos lados tem um retângulo: Um retângulo é uma figura plana com quatro lados e quatro ângulos retos. Os lados opostos têm a mesma medida.
+como é a forma retangular: Um retângulo é uma figura plana com quatro lados e quatro ângulos retos. Os lados opostos têm a mesma medida.
+
+o que é um círculo: Um círculo é a região plana limitada por uma circunferência.
+explique círculo: Um círculo é a região plana limitada por uma circunferência.
+como é a forma circular: Um círculo é a região plana limitada por uma circunferência.
+defina círculo: Um círculo é a região plana limitada por uma circunferência.
+
+o que é uma esfera: Uma esfera é a superfície formada pelos pontos do espaço que estão à mesma distância de um centro.
+explique esfera: Uma esfera é a superfície formada pelos pontos do espaço que estão à mesma distância de um centro.
+como é a forma esférica: Uma esfera é a superfície formada pelos pontos do espaço que estão à mesma distância de um centro.
+defina esfera: Uma esfera é a superfície formada pelos pontos do espaço que estão à mesma distância de um centro.
+
+o que é um cubo: Um cubo é um sólido com seis faces quadradas iguais, doze arestas e oito vértices.
+explique cubo: Um cubo é um sólido com seis faces quadradas iguais, doze arestas e oito vértices.
+quantas faces tem um cubo: Um cubo é um sólido com seis faces quadradas iguais, doze arestas e oito vértices.
+como é a forma cúbica: Um cubo é um sólido com seis faces quadradas iguais, doze arestas e oito vértices.
+
+o que é um pentágono: Um pentágono é um polígono com cinco lados.
+explique pentágono: Um pentágono é um polígono com cinco lados.
+quantos lados tem um pentágono: Um pentágono é um polígono com cinco lados.
+defina pentágono: Um pentágono é um polígono com cinco lados.
+
+o que é um hexágono: Um hexágono é um polígono com seis lados.
+explique hexágono: Um hexágono é um polígono com seis lados.
+quantos lados tem um hexágono: Um hexágono é um polígono com seis lados.
+defina hexágono: Um hexágono é um polígono com seis lados.
+
+o que é um polígono: Um polígono é uma figura plana fechada cujo contorno é formado por segmentos de reta.
+explique polígono: Um polígono é uma figura plana fechada cujo contorno é formado por segmentos de reta.
+defina polígono: Um polígono é uma figura plana fechada cujo contorno é formado por segmentos de reta.
+como identificar um polígono: Um polígono é uma figura plana fechada cujo contorno é formado por segmentos de reta.
+
+o que é um vértice: Em um polígono, um vértice é o ponto de encontro de dois lados consecutivos.
+explique vértice: Em um polígono, um vértice é o ponto de encontro de dois lados consecutivos.
+defina vértice: Em um polígono, um vértice é o ponto de encontro de dois lados consecutivos.
+o que significa vértice: Em um polígono, um vértice é o ponto de encontro de dois lados consecutivos.
+
+o que é um ângulo: Um ângulo é a abertura entre duas semirretas que partem do mesmo ponto, chamado vértice.
+explique ângulo: Um ângulo é a abertura entre duas semirretas que partem do mesmo ponto, chamado vértice.
+defina ângulo: Um ângulo é a abertura entre duas semirretas que partem do mesmo ponto, chamado vértice.
+o que significa ângulo: Um ângulo é a abertura entre duas semirretas que partem do mesmo ponto, chamado vértice.
+
+o que é perímetro: O perímetro de um polígono é a soma das medidas de todos os seus lados.
+explique perímetro: O perímetro de um polígono é a soma das medidas de todos os seus lados.
+como calcular o perímetro: O perímetro de um polígono é a soma das medidas de todos os seus lados.
+defina perímetro: O perímetro de um polígono é a soma das medidas de todos os seus lados.
+
+como calcular a área do quadrado: A área do quadrado é lado vezes lado. Com lado de 3 centímetros, a área é 9 centímetros quadrados.
+qual é a fórmula da área do quadrado: A área do quadrado é lado vezes lado. Com lado de 3 centímetros, a área é 9 centímetros quadrados.
+área do quadrado: A área do quadrado é lado vezes lado. Com lado de 3 centímetros, a área é 9 centímetros quadrados.
+me ensine a área do quadrado: A área do quadrado é lado vezes lado. Com lado de 3 centímetros, a área é 9 centímetros quadrados.
+
+como calcular a área do triângulo: A área do triângulo é base vezes altura dividido por dois. A altura deve ser perpendicular à base.
+qual é a fórmula da área do triângulo: A área do triângulo é base vezes altura dividido por dois. A altura deve ser perpendicular à base.
+área do triângulo: A área do triângulo é base vezes altura dividido por dois. A altura deve ser perpendicular à base.
+me ensine a área do triângulo: A área do triângulo é base vezes altura dividido por dois. A altura deve ser perpendicular à base.
+
+o que é uma palavra: Uma palavra é uma unidade da língua usada para expressar significado ou exercer uma função gramatical.
+explique palavra: Uma palavra é uma unidade da língua usada para expressar significado ou exercer uma função gramatical.
+defina palavra: Uma palavra é uma unidade da língua usada para expressar significado ou exercer uma função gramatical.
+o que significa palavra: Uma palavra é uma unidade da língua usada para expressar significado ou exercer uma função gramatical.
+
+o que é uma pergunta: Uma pergunta é um enunciado usado para solicitar uma informação ou um esclarecimento.
+explique pergunta: Uma pergunta é um enunciado usado para solicitar uma informação ou um esclarecimento.
+defina pergunta: Uma pergunta é um enunciado usado para solicitar uma informação ou um esclarecimento.
+para que serve uma pergunta: Uma pergunta é um enunciado usado para solicitar uma informação ou um esclarecimento.
+
+o que é uma resposta: Uma resposta é uma informação ou manifestação dada em relação a uma pergunta ou solicitação.
+explique resposta: Uma resposta é uma informação ou manifestação dada em relação a uma pergunta ou solicitação.
+defina resposta: Uma resposta é uma informação ou manifestação dada em relação a uma pergunta ou solicitação.
+para que serve uma resposta: Uma resposta é uma informação ou manifestação dada em relação a uma pergunta ou solicitação.
+
+o que é json: JSON é um formato de texto para representar dados, usando objetos, listas, textos, números, valores booleanos e null.
+explique json: JSON é um formato de texto para representar dados, usando objetos, listas, textos, números, valores booleanos e null.
+para que serve json: JSON é um formato de texto para representar dados, usando objetos, listas, textos, números, valores booleanos e null.
+defina json: JSON é um formato de texto para representar dados, usando objetos, listas, textos, números, valores booleanos e null.
+
+o que é ruby: Ruby é uma linguagem de programação. Neste projeto, ela executa a preparação do texto, o treinamento e a classificação.
+explique ruby: Ruby é uma linguagem de programação. Neste projeto, ela executa a preparação do texto, o treinamento e a classificação.
+para que serve ruby: Ruby é uma linguagem de programação. Neste projeto, ela executa a preparação do texto, o treinamento e a classificação.
+defina ruby: Ruby é uma linguagem de programação. Neste projeto, ela executa a preparação do texto, o treinamento e a classificação.
+
+o que é vocabulário: O vocabulário é a lista de palavras encontradas nas perguntas de treino. Cada palavra ocupa uma posição no vetor de entrada.
+explique vocabulário da rede: O vocabulário é a lista de palavras encontradas nas perguntas de treino. Cada palavra ocupa uma posição no vetor de entrada.
+para que serve o vocabulário: O vocabulário é a lista de palavras encontradas nas perguntas de treino. Cada palavra ocupa uma posição no vetor de entrada.
+como o vocabulário é criado: O vocabulário é a lista de palavras encontradas nas perguntas de treino. Cada palavra ocupa uma posição no vetor de entrada.
+
+o que é um peso na rede: Um peso determina a contribuição de uma entrada para a soma de uma classe. Os pesos são ajustados durante o treinamento.
+explique os pesos da rede: Um peso determina a contribuição de uma entrada para a soma de uma classe. Os pesos são ajustados durante o treinamento.
+para que servem os pesos: Um peso determina a contribuição de uma entrada para a soma de uma classe. Os pesos são ajustados durante o treinamento.
+defina peso da rede: Um peso determina a contribuição de uma entrada para a soma de uma classe. Os pesos são ajustados durante o treinamento.
+
+o que é viés: O viés é um valor adicionado à soma ponderada. Ele permite ajustar a soma mesmo quando todas as entradas são zero.
+explique o viés: O viés é um valor adicionado à soma ponderada. Ele permite ajustar a soma mesmo quando todas as entradas são zero.
+para que serve o viés: O viés é um valor adicionado à soma ponderada. Ele permite ajustar a soma mesmo quando todas as entradas são zero.
+defina viés: O viés é um valor adicionado à soma ponderada. Ele permite ajustar a soma mesmo quando todas as entradas são zero.
+
+o que é taxa de aprendizado: A taxa de aprendizado controla o tamanho dos ajustes nos pesos e no viés. Valores altos podem tornar o treino instável; valores baixos podem exigir mais épocas.
+explique taxa de aprendizado: A taxa de aprendizado controla o tamanho dos ajustes nos pesos e no viés. Valores altos podem tornar o treino instável; valores baixos podem exigir mais épocas.
+para que serve a taxa de aprendizado: A taxa de aprendizado controla o tamanho dos ajustes nos pesos e no viés. Valores altos podem tornar o treino instável; valores baixos podem exigir mais épocas.
+como escolher a taxa de aprendizado: A taxa de aprendizado controla o tamanho dos ajustes nos pesos e no viés. Valores altos podem tornar o treino instável; valores baixos podem exigir mais épocas.
+
+o que é uma época: Uma época é uma passagem completa por todos os exemplos de treinamento.
+explique épocas de treinamento: Uma época é uma passagem completa por todos os exemplos de treinamento.
+para que servem as épocas: Uma época é uma passagem completa por todos os exemplos de treinamento.
+defina época de treinamento: Uma época é uma passagem completa por todos os exemplos de treinamento.
+
+o que é uma classe: Uma classe é uma categoria de saída. Neste exemplo, perguntas com respostas idênticas compartilham a mesma classe.
+explique classe do classificador: Uma classe é uma categoria de saída. Neste exemplo, perguntas com respostas idênticas compartilham a mesma classe.
+para que servem as classes: Uma classe é uma categoria de saída. Neste exemplo, perguntas com respostas idênticas compartilham a mesma classe.
+como são criadas as classes: Uma classe é uma categoria de saída. Neste exemplo, perguntas com respostas idênticas compartilham a mesma classe.
+
+onde ficam as perguntas: Edite perguntas_respostas.txt. Escreva uma pergunta e sua resposta por linha, separadas pelo primeiro dois-pontos.
+qual arquivo devo editar: Edite perguntas_respostas.txt. Escreva uma pergunta e sua resposta por linha, separadas pelo primeiro dois-pontos.
+como adicionar uma pergunta: Edite perguntas_respostas.txt. Escreva uma pergunta e sua resposta por linha, separadas pelo primeiro dois-pontos.
+como cadastrar outra resposta: Edite perguntas_respostas.txt. Escreva uma pergunta e sua resposta por linha, separadas pelo primeiro dois-pontos.
+
+onde o modelo é salvo: O modelo fica em classificador.json, com vocabulário, pesos, vieses e respostas. O programa carrega esse arquivo automaticamente.
+qual arquivo contém os pesos: O modelo fica em classificador.json, com vocabulário, pesos, vieses e respostas. O programa carrega esse arquivo automaticamente.
+para que serve classificador.json: O modelo fica em classificador.json, com vocabulário, pesos, vieses e respostas. O programa carrega esse arquivo automaticamente.
+como carregar o modelo salvo: O modelo fica em classificador.json, com vocabulário, pesos, vieses e respostas. O programa carrega esse arquivo automaticamente.
+
+como treinar novamente: Na pasta do exemplo 05, execute ruby exemplo.rb --treinar. Se o classificador já existe, a execução normal apenas carrega o modelo salvo. Use --treinar para atualizá-lo.
+qual comando treina a rede: Na pasta do exemplo 05, execute ruby exemplo.rb --treinar. Se o classificador já existe, a execução normal apenas carrega o modelo salvo. Use --treinar para atualizá-lo.
+como atualizar o treinamento: Na pasta do exemplo 05, execute ruby exemplo.rb --treinar. Se o classificador já existe, a execução normal apenas carrega o modelo salvo. Use --treinar para atualizá-lo.
+como executar o treino: Na pasta do exemplo 05, execute ruby exemplo.rb --treinar. Se o classificador já existe, a execução normal apenas carrega o modelo salvo. Use --treinar para atualizá-lo.
+
+como iniciar a conversa: Na pasta do exemplo 05, execute ruby exemplo.rb e digite suas perguntas no terminal.
+qual comando abre o chat: Na pasta do exemplo 05, execute ruby exemplo.rb e digite suas perguntas no terminal.
+como conversar pelo terminal: Na pasta do exemplo 05, execute ruby exemplo.rb e digite suas perguntas no terminal.
+como executar o programa: Na pasta do exemplo 05, execute ruby exemplo.rb e digite suas perguntas no terminal.
+
+como sair da conversa: Digite /sair no terminal para encerrar a conversa.
+qual comando encerra o chat: Digite /sair no terminal para encerrar a conversa.
+como fechar o programa: Digite /sair no terminal para encerrar a conversa.
+como terminar a conversa: Digite /sair no terminal para encerrar a conversa.
+
+por que a resposta está errada: Revise as respostas e acrescente perguntas variadas sobre cada assunto ao TXT. Treine novamente e teste com perguntas que não estavam no treino.
+por que o classificador errou: Revise as respostas e acrescente perguntas variadas sobre cada assunto ao TXT. Treine novamente e teste com perguntas que não estavam no treino.
+como melhorar as respostas: Revise as respostas e acrescente perguntas variadas sobre cada assunto ao TXT. Treine novamente e teste com perguntas que não estavam no treino.
+como corrigir uma classificação: Revise as respostas e acrescente perguntas variadas sobre cada assunto ao TXT. Treine novamente e teste com perguntas que não estavam no treino.
+
+o programa entende o contexto: Este exemplo classifica cada pergunta separadamente. Ele não usa o histórico nem mantém contexto entre perguntas.
+você lembra da conversa anterior: Este exemplo classifica cada pergunta separadamente. Ele não usa o histórico nem mantém contexto entre perguntas.
+existe memória de conversa: Este exemplo classifica cada pergunta separadamente. Ele não usa o histórico nem mantém contexto entre perguntas.
+você usa histórico: Este exemplo classifica cada pergunta separadamente. Ele não usa o histórico nem mantém contexto entre perguntas.
+
+você cria respostas novas: As respostas vêm do arquivo perguntas_respostas.txt. A rede seleciona uma resposta cadastrada; ela não escreve respostas novas.
+você gera texto: As respostas vêm do arquivo perguntas_respostas.txt. A rede seleciona uma resposta cadastrada; ela não escreve respostas novas.
+as respostas são inventadas: As respostas vêm do arquivo perguntas_respostas.txt. A rede seleciona uma resposta cadastrada; ela não escreve respostas novas.
+de onde vêm as respostas: As respostas vêm do arquivo perguntas_respostas.txt. A rede seleciona uma resposta cadastrada; ela não escreve respostas novas.
+
+a ordem das palavras importa: Cada palavra conhecida vira uma posição com valor 1 se estiver presente e 0 se estiver ausente. A ordem e a quantidade de repetições são ignoradas.
+o programa considera a ordem das palavras: Cada palavra conhecida vira uma posição com valor 1 se estiver presente e 0 se estiver ausente. A ordem e a quantidade de repetições são ignoradas.
+como as palavras viram números: Cada palavra conhecida vira uma posição com valor 1 se estiver presente e 0 se estiver ausente. A ordem e a quantidade de repetições são ignoradas.
+o que é vetor de presença: Cada palavra conhecida vira uma posição com valor 1 se estiver presente e 0 se estiver ausente. A ordem e a quantidade de repetições são ignoradas.
+
+o programa distingue acentos: O programa converte para minúsculas e remove os acentos antes de separar as palavras.
+posso escrever sem acentos: O programa converte para minúsculas e remove os acentos antes de separar as palavras.
+maiúsculas fazem diferença: O programa converte para minúsculas e remove os acentos antes de separar as palavras.
+como o texto é normalizado: O programa converte para minúsculas e remove os acentos antes de separar as palavras.
+
+precisa de internet: Este exemplo roda localmente em Ruby e não precisa de internet nem envia as perguntas para serviços externos.
+o programa funciona offline: Este exemplo roda localmente em Ruby e não precisa de internet nem envia as perguntas para serviços externos.
+os dados são enviados para um servidor: Este exemplo roda localmente em Ruby e não precisa de internet nem envia as perguntas para serviços externos.
+usa serviço externo: Este exemplo roda localmente em Ruby e não precisa de internet nem envia as perguntas para serviços externos.
+
+o que acontece com palavras desconhecidas: Palavras fora do vocabulário são ignoradas. Se nenhuma palavra da pergunta for conhecida, o programa mostra a resposta desconhecida configurada no JSON.
+como são tratadas palavras novas: Palavras fora do vocabulário são ignoradas. Se nenhuma palavra da pergunta for conhecida, o programa mostra a resposta desconhecida configurada no JSON.
+por que apareceu não reconheci: Palavras fora do vocabulário são ignoradas. Se nenhuma palavra da pergunta for conhecida, o programa mostra a resposta desconhecida configurada no JSON.
+quando a resposta desconhecida aparece: Palavras fora do vocabulário são ignoradas. Se nenhuma palavra da pergunta for conhecida, o programa mostra a resposta desconhecida configurada no JSON.
+
+acertar no treino garante qualidade: Teste perguntas que não foram usadas no treinamento. Acertos nos exemplos de treino não garantem acertos em perguntas novas.
+como avaliar o classificador: Teste perguntas que não foram usadas no treinamento. Acertos nos exemplos de treino não garantem acertos em perguntas novas.
+como testar a rede: Teste perguntas que não foram usadas no treinamento. Acertos nos exemplos de treino não garantem acertos em perguntas novas.
+o que é generalização: Teste perguntas que não foram usadas no treinamento. Acertos nos exemplos de treino não garantem acertos em perguntas novas.
+

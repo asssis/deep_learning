@@ -12,11 +12,11 @@ Use desenhos escuros sobre fundo claro, com a figura centralizada e enquadrament
 ## Executar na raiz do projeto
 
 ```sh
-python3 -m venv 03_deeplearning_basico/.venv
-source 03_deeplearning_basico/.venv/bin/activate
-python3 -m pip install -r 03_deeplearning_basico/requirements.txt
-python3 03_deeplearning_basico/exemplo.py
-ruby 03_deeplearning_basico/exemplo.rb
+python3 -m venv 03_reconhecimento_imagens/.venv
+source 03_reconhecimento_imagens/.venv/bin/activate
+python3 -m pip install -r 03_reconhecimento_imagens/requirements.txt
+python3 03_reconhecimento_imagens/exemplo.py
+ruby 03_reconhecimento_imagens/exemplo.rb
 ```
 
 A versão Ruby chama `imagem.py` apenas para converter as imagens, usando Python com Pillow. Os cálculos de treinamento continuam em Ruby. Usa automaticamente `.venv/bin/python` da pasta do exemplo quando disponível; caso contrário, usa `python3`. A variável `PYTHON` permite escolher outro executável.
@@ -24,8 +24,8 @@ A versão Ruby chama `imagem.py` apenas para converter as imagens, usando Python
 Para prever uma imagem própria depois de treinar:
 
 ```sh
-python3 03_deeplearning_basico/exemplo.py caminho/minha_imagem.png
-ruby 03_deeplearning_basico/exemplo.rb caminho/minha_imagem.png
+python3 03_reconhecimento_imagens/exemplo.py caminho/minha_imagem.png
+ruby 03_reconhecimento_imagens/exemplo.rb caminho/minha_imagem.png
 ```
 
 Incluímos três imagens em `imagens/`: quadrado, triângulo e bola. O exemplo repete o treinamento 300 vezes, com taxa 0.001, porque agora há 256 entradas. Cada classe tem 256 pesos e um viés.

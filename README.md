@@ -2,11 +2,20 @@
 
 Exemplo educativo de aprendizado linear em Ruby e Python, sem bibliotecas externas.
 
+## Exemplos
+
+- `01_classificador_gatos_cachorros`: classificação básica com entradas numéricas.
+- `02_formas_geometricas_matrizes`: quadrado, triângulo e bola representados por matrizes, com viés.
+- `03_reconhecimento_imagens`: classificação de formas em arquivos de imagem.
+- `04_reconhecimento_audio`: classificação das palavras faladas em arquivos WAV.
+- `05_perguntas_respostas`: classificação de perguntas e seleção de respostas, com base TXT e modelo JSON.
+- `06_desenhos_por_texto`: pedidos em texto selecionam desenhos reconhecidos pela rede de imagens.
+
 ## Executar
 
 ```sh
-ruby deepleaning_basico_exemplo_01/exemplo.rb
-python3 deepleaning_basico_exemplo_01/exemplo.py
+ruby 01_classificador_gatos_cachorros/exemplo.rb
+python3 01_classificador_gatos_cachorros/exemplo.py
 ```
 
 ## Como funciona
