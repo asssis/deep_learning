@@ -1,0 +1,21 @@
+# Pedido: figura correspondente. Uma linha por exemplo.
+desenhe um quadrado: quadrado
+desenha quadrado: quadrado
+quero um desenho de quadrado: quadrado
+faça um quadrado: quadrado
+mostre a forma quadrada: quadrado
+quadrado: quadrado
+desenhe um triângulo: triangulo
+desenha triangulo: triangulo
+quero um desenho de triângulo: triangulo
+faça um triângulo: triangulo
+mostre a forma triangular: triangulo
+triângulo: triangulo
+triangula: triangulo
+desenhe um triangula: triangulo
+desenhe uma bola: bola
+desenha bola: bola
+quero um desenho de bola: bola
+faça uma bola: bola
+mostre uma bola redonda: bola
+bola: bola
