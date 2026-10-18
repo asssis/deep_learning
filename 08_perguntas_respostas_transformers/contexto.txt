@@ -1,0 +1,7 @@
+O triângulo é uma figura geométrica com três lados.
+O quadrado tem quatro lados iguais e quatro ângulos retos.
+O círculo é uma figura plana que não tem lados retos.
+Python é a linguagem de programação usada neste exemplo.
+A biblioteca Transformers, da Hugging Face, permite carregar modelos já treinados.
+Neste exemplo, o modelo BERT procura a resposta dentro de um texto de contexto.
+O PyTorch executa os cálculos do modelo na CPU.
