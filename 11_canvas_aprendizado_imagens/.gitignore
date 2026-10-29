@@ -1,0 +1,8 @@
+/.bundle/
+/vendor/
+/log/
+/tmp/
+/storage/*.json
+/storage/*.bak
+/storage/*.lock
+/storage/images/

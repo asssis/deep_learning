@@ -1,0 +1,43 @@
+<div class="workspace">
+  <header class="topbar"><a class="brand" href="/">traço<span>✳</span></a><span class="project-name">11 / LABORATÓRIO DE IMAGENS</span><span class="local-badge"><i></i>Ruby + Canvas · Local</span></header>
+  <main>
+    <section class="heading"><div><div class="eyebrow">UM DESENHO. UM NOVO APRENDIZADO.</div><h1>Você desenha.<br>Ele <em>aprende.</em></h1><p>Desenhe uma forma, peça uma identificação e treine o nome.<br>A CNN aprende com 6 versões da figura, sem rotação.</p></div><div class="steps"><span><b>01</b>Desenhe no quadro</span><span><b>02</b>Peça para identificar</span><span><b>03</b>Confirme ou treine o nome</span></div></section>
+    <noscript><p class="notice">Ative JavaScript para desenhar no canvas e enviar os pixels ao Ruby.</p></noscript>
+    <div class="workspace-tabs" role="tablist" aria-label="Áreas do laboratório">
+      <button id="learning-tab" type="button" role="tab" aria-controls="learning-panel" aria-selected="true" tabindex="0">Canvas de aprendizado</button>
+      <button id="examples-tab" type="button" role="tab" aria-controls="examples-panel" aria-selected="false" tabindex="-1">Exemplos treinados</button>
+    </div>
+    <section id="learning-panel" role="tabpanel" aria-labelledby="learning-tab">
+    <div class="lab-grid">
+      <section class="drawing-panel" aria-labelledby="drawing-title">
+        <div class="panel-heading"><h2 id="drawing-title">Seu quadro de desenho</h2><span class="eyebrow">SÓ A IMAGEM É ANALISADA</span></div>
+        <div class="image-actions"><label class="file-button" for="image-file">＋ Carregar imagem<input id="image-file" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml,.svg"></label><div><button id="clear" type="button" class="file-button" disabled>Limpar quadro</button><button id="download-png" type="button" class="file-button" disabled>Baixar PNG ↓</button><button id="download-svg" type="button" class="file-button" title="SVG com a imagem PNG incorporada" disabled>Baixar SVG ↓</button></div></div>
+        <div class="paper"><canvas id="sketch" width="512" height="512" aria-label="Quadro de desenho. Use mouse, caneta ou toque para desenhar uma forma." tabindex="0"></canvas><div id="canvas-hint" class="canvas-hint" aria-hidden="true"><span>↗</span><strong>Comece com um traço</strong><small>Mouse, caneta ou toque.<br>Desenhe uma figura grande, com espaço nas bordas.</small></div></div>
+        <div class="drawing-tools"><label for="brush">Traço <input type="range" id="brush" min="6" max="24" value="12"><output id="brush-size" for="brush">12</output></label><div><button id="undo" type="button" class="quiet" disabled>↶ Desfazer</button></div></div>
+        <button id="identify" type="button" class="primary identify" disabled>Identificar meu desenho <span>↗</span></button>
+        <p class="canvas-note">Desenhe ou arraste uma imagem para o quadro. Aceita PNG, JPG, WebP e SVG de até 5 MB, incluindo as formas do exemplo 10. Depois, identifique ou ensine o nome.</p>
+      </section>
+      <aside class="learning-column">
+        <section class="result-panel" aria-labelledby="result-title"><div class="eyebrow">O QUE EU VEJO</div><div id="result" role="status" aria-live="polite"><div class="result-symbol">?</div><h2 id="result-title">Vamos aprender juntos?</h2><p>Ainda não vi este desenho. Faça uma forma no quadro e peça para identificar.</p></div><div id="matches" class="matches"></div></section>
+        <section class="teaching-panel" aria-labelledby="teach-title"><div class="eyebrow">VOCÊ É QUEM ENSINA</div><h2 id="teach-title">“Isso é um…”</h2><p>Se eu não souber ou errar, me diga o nome correto. Cada treino ensina à CNN 6 versões por 35 épocas: maior, menor, esquerda, direita, cima e baixo, sem rotação.</p>
+          <form id="teach-form"><label for="label">Nome do desenho</label><input id="label" name="label" type="text" maxlength="80" placeholder="Ex.: triângulo" required autocomplete="off"><div class="label-suggestions"><% %w[quadrado triângulo estrela círculo].each do |label| %><button type="button" class="label-chip" data-label="<%= label %>"><%= label %></button><% end %></div><button class="primary teach" id="teach" type="submit" disabled>Treinar com este desenho <span>＋</span></button></form>
+          <p class="small-note">Esses nomes são sugestões. A base inicial só é treinada quando você solicita; você pode ensinar outros nomes também.</p>
+        </section>
+        <p id="feedback" class="feedback" role="alert" hidden></p>
+      </aside>
+    </div>
+    </section>
+    <section id="examples-panel" class="memory" role="tabpanel" aria-labelledby="examples-tab" hidden><div class="memory-heading"><div><div class="eyebrow">O QUE JÁ APRENDI COM VOCÊ</div><h2 id="memory-title">Meu caderno de desenhos</h2></div><div class="memory-stats"><span><strong id="sample-count"><%= @summary[:count] %></strong> exemplos</span><span><strong id="class-count"><%= @summary[:classes].size %></strong> nomes</span></div></div>
+    <section class="training-panel" aria-labelledby="training-title">
+      <div class="training-heading"><div><div class="eyebrow">ESCOLHA COMO COMEÇAR</div><h2 id="training-title">Treinamento da CNN</h2></div><span id="training-state" class="training-state"><%= @summary[:count].positive? ? 'Treinamento salvo em uso' : 'Sem treinamento ativo' %></span></div>
+      <div class="training-actions"><button id="pretrain" class="file-button" type="button">Treinar com exemplos de teste</button><button id="reset-training" class="file-button danger-button" type="button">Limpar modelo</button></div>
+      <p id="training-progress" class="training-progress" role="status" aria-live="polite" hidden></p>
+    </section>
+      <div id="classes" class="class-list"><% @summary[:classes].each do |group| %><span><%= group[:label] %><b><%= group[:count] %></b></span><% end %></div>
+      <div id="examples" class="examples"><% @summary[:examples].each do |sample| %><figure><img src="<%= sample[:url] %>" alt="Exemplo ensinado como <%= sample[:label] %>" width="64" height="64"><figcaption><%= sample[:label] %></figcaption><a class="example-download" href="<%= sample[:url] %>" download="<%= sample[:label] %>.png">Baixar PNG ↓</a></figure><% end %></div>
+      <p id="memory-empty" class="memory-empty" <%= 'hidden' if @summary[:count].positive? %>>Uma página em branco. Seu primeiro exemplo aparece aqui depois de ensinar.</p>
+    </section>
+    <details class="how-it-works"><summary>↳ Como a identificação funciona?</summary><div class="pipeline"><span>Canvas<br><b>64 × 64 pixels</b></span><i>→</i><span>Silhueta<br><b>32 × 32 pixels</b></span><i>→</i><span>Treino<br><b>6 versões × 35 épocas</b></span><i>→</i><span>CNN<br><b>Convolução + pooling</b></span><i>→</i><span>Resposta<br><b>Confiança ou “não sei”</b></span></div><p>Ao treinar, o Ruby apresenta 6 versões por 35 épocas (210 apresentações), sem rotação ou espelhamento, e revisa exemplos anteriores. A CNN centraliza e ajusta o tamanho da silhueta. O treino ajusta os filtros convolucionais e a camada de classificação. Só devolve um nome se a confiança atingir 78%, superar a segunda classe por 12 pontos e os padrões forem próximos dos exemplos ensinados. Confiança não é probabilidade de acerto. O nome vem do rótulo que você ensina.</p></details>
+    <footer><span>TRAÇO · EXPERIMENTO 11</span><span>Aprendizado por exemplos, feito em Ruby. Sem LLM, sem API de IA.</span></footer>
+  </main>
+</div>

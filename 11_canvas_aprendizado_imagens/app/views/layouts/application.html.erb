@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <title>Traço · Aprender desenhando</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="/canvas.css?v=<%= File.mtime(Rails.root.join('public/canvas.css')).to_i %>">
+  <script src="/image_io.js" defer></script>
+  <script src="/canvas.js" defer></script>
+</head>
+<body><%= yield %></body>
+</html>
